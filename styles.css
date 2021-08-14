@@ -1,0 +1,129 @@
+
+/* Tool Bar */
+.banner {
+  width: 100%;
+  padding: 10px;
+}
+
+.banner .flex-container {
+  background-color: #F5E8C7;
+}
+
+body{
+  background-color: #F5E8C7;
+}
+
+.logo {
+  position: absolute;
+  left: 2rem;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.25rem;
+}
+
+.button {
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #DEBA9D;
+  border: none;
+  color: #6F4C5B;
+  padding: 7px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.spacer {
+  padding: 1px 15px;
+}
+
+p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  margin: 5px;
+}
+
+/* color1: #5F7A61 */
+/* color2: #6E85B2 */
+.color-samples-general-style {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.color1-sample {
+  background-color: #5F7A61;
+}
+
+.color1-sample:hover{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.color2-sample {
+  background-color: #6E85B2;
+}
+
+.color2-sample:hover{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.color3-sample{
+  background-color: #FF6B6B;
+}
+
+.color3-sample:hover{
+  box-shadow: 0 3px 4px 0 #FF6B6B;
+  opacity: 0.5;
+}
+
+/* Drawing Zone */
+
+.flex-container {
+  display: flex;
+  align-items: center; /* vertically center */
+  justify-content: flex-end; /*certer: horizontally center */
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.box1 {
+  /* background-color: #FFDFAF; */
+  padding: 5px;
+
+}
+
+/* .box1:hover {
+  background-color: #753422;
+} */
+
+
+.chosen-color {
+  box-shadow: 0 0 4px 4px rgba(50, 50, 200, 0.2);
+}
+
+.chosen-tool {
+  box-shadow: 0 0 4px 4px rgba(50, 50, 200, 0.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.footer-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
