@@ -46,6 +46,19 @@ p {
   margin: 5px;
 }
 
+.reset {
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #DEBA9D;
+  border: solid;
+  color: #6F4C5B;
+  padding: 5px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* color1: #5F7A61 */
 /* color2: #6E85B2 */
 .color-samples-general-style {

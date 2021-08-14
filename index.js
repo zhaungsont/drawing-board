@@ -89,6 +89,22 @@ function chosenToolChanger(event){
   prevChosenTool = $(event);
 }
 
+$(".reset").click(function(){
+  //clear canvas
+  $(".box1").css("background-color", "white");
+
+  //reset tools
+  currentColor = "#FF6B6B";
+  marker = true;
+  bucket = false;
+  prevChosenColor = "";
+  prevChosenTool = "";
+
+  //reset tools visuals
+  $(".button").removeClass("chosen-tool");
+  $(".color-samples-general-style").removeClass("chosen-color");
+});
+
 // WIP Message
 $("input").click(function(){
   alert("I haven't figured out how to customize colors...my apologies! 抱歉，我還不知道怎麼使用自訂顏色！");
