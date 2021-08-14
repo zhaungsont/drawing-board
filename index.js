@@ -7,6 +7,9 @@ var bucket = false;
 var prevChosenColor = "";
 var prevChosenTool = "";
 
+//長輩提示
+alert("用滑鼠來作畫！畫面上方有三個顏色可以選擇。工具可以選擇筆刷（預設）或是油漆桶！準備好就可以按下「確定」啦！期待你的精采傑作！")
+
 //Tool Picker
 $(".bucket").click(function(){
   bucket = true;
